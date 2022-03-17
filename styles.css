@@ -1,0 +1,46 @@
+html {
+    width: 1440px;
+    height: 120vh;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+
+}
+
+img {
+    
+}
+
+.card {
+    position: relative;
+    background-color: white;
+    width: 60vw;
+    height: 70vh;
+    margin: 150px auto;
+    border-radius: 25px;
+    box-shadow: 0px 5px 50px hsl(237, 12%, 33%);
+}
+
+.img-front {
+    height: 300px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -50px;
+
+}
+
+.img-back {
+    height:900px;
+    margin-top: -275px;
+    margin-left: -580px;
+}
+
+.img-box {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: -435px;
+}
